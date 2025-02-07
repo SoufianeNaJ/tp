@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+/* header start*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+header .logo{
+    color: blue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 23px;
+}
+header nav ul{
+    display: flex;
+    background-color: #000;
+    border-radius: 5px;
+}
+header nav ul li{
+    margin: 0 30px;
+    padding: 7px 0 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header nav ul li button{
+    margin-top: 2px;
+    padding: 10px 16px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+/* header end*/
+
+/* main start*/
+main .all-cart{
+    display: flex;
+}
+main{
+    display: flex;
+    margin-top: 20px;
+}
+main .all-cart .item-cart,
+main .cart-it
+{
+    width: 350px;
+    background-color: #fff;
+    margin: 10px 40px;
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+main .all-cart .item-cart a,
+main .cart-it a
+{
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+main .all-cart .item-cart p,
+main .cart-it p
+{
+    margin-bottom: 10px;
+}
+main .formulaire{
+    background-color: #fff;
+    width: 350px;
+    margin-left: 8%;
+    padding: 20px 30px;
+}
+main .formulaire h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+main .formulaire .email,
+main .formulaire .password
+{
+    display: flex;
+    flex-direction: column;
+}
+main .formulaire .email input,
+main .formulaire .password input{
+    padding: 6px;
+    outline: none;
+}
+main .formulaire .email label,
+main .formulaire .password label{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+main .formulaire .email input{
+    margin-bottom: 20px;
+}
+
+main .formulaire button{
+    width: 100%;
+    color: #fff;
+    background-color: rgb(0, 17, 255);
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+footer p{
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+footer{
+    margin: 0 35px;
+    margin-top: 40px;
+}
+/* main end*/
